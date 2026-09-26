@@ -6,7 +6,7 @@ st.title("Customer Churn Prediction")
 st.write("My Predictive Customer Churn Project")
 
 # Load the trained model
-model = joblib.load("churn_model.pkl")
+model = joblib.load("churn_model_small.pkl")
 
 st.success("Churn model loaded successfully!")
 
